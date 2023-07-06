@@ -105,6 +105,53 @@ a
     height: auto;
 }
 
+.information
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10%;
+}
+
+.information-box
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-bottom: 30px;
+}
+
+.information-section
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.information-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 140px;
+}
+
+.information-image {
+    max-width: 200px;
+}
+
+.information-text {
+    max-width: 200px;
+    text-align: center;
+}
+
+.information-image-border
+{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
 
 .footer {
     justify-content: center;
